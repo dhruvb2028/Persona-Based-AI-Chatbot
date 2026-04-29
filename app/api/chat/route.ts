@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { systemPrompts } from "@/lib/personaPrompts";
-import { personas, type PersonaId } from "@/lib/personas";
+import { systemPrompts } from "../../../lib/personaPrompts";
+import { personas, type PersonaId } from "../../../lib/personas";
 
 type ChatMessage = {
   role: "user" | "assistant";

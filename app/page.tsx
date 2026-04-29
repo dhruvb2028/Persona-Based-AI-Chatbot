@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { personas, type PersonaId } from "@/lib/personas";
+import { personas, type PersonaId } from "../lib/personas";
 
 type ChatMessage = {
   role: "user" | "assistant";
@@ -93,7 +93,7 @@ export default function HomePage() {
             </h1>
             <p className="max-w-xl text-sm text-ink/70 md:text-base">
               Switch between mentors, explore tailored prompts, and keep the
-              conversation grounded in each persona's tone.
+              conversation grounded in each persona tone.
             </p>
           </div>
           <div className="rounded-2xl border border-black/10 bg-white/80 px-5 py-4">
